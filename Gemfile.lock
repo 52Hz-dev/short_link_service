@@ -272,6 +272,9 @@ GEM
       fugit (~> 1.11.0)
       railties (>= 7.1)
       thor (~> 1.3.1)
+    sprockets (4.2.1)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
     sshkit (1.23.2)
       base64
       net-scp (>= 1.1.2)
@@ -312,6 +315,7 @@ DEPENDENCIES
   solid_cable
   solid_cache
   solid_queue
+  sprockets
   thruster
   tzinfo-data
 
