@@ -311,3 +311,4 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.5.22
+bundle lock --add-platform x86_64-linux
